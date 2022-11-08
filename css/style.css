@@ -4,27 +4,104 @@ body{
 }
 
 .container{
+    background-color: black;
     height: 100vh;
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 6fr 1fr 1fr;
+    grid-template-rows: 1.25fr 0.75fr 5fr 0.75fr 5fr 0.75fr;
 }
+
+/* Header */
 
 .header{
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
     grid-column: 1/6;
 }
 
-.main{
-    background-color: yellow;
-    grid-column: 1/6;
-    grid-row: 2/4;
+.logo{
+    grid-column: 1/2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
 }
+
+.logo img{
+    width: 100px;
+}
+
+.navbar-left{
+    background-color: red;
+    grid-column: 2/4;
+
+}
+
+.navbar-right{
+    background-color: antiquewhite;
+    grid-column: 4/6;
+}
+
+/* Main */
+
+.title{
+    background-color: green;
+    grid-column: 1/6;
+
+}
+
+.peli1{
+    background-color: yellow;
+    grid-column: 1/2;
+}
+
+.peli2{
+    background-color: greenyellow;
+    grid-column: 2/3;
+}
+
+.peli3 {
+    background-color: yellow;
+    grid-column: 3/4;
+}
+
+.peli4 {
+    background-color: greenyellow;
+    grid-column: 4/5;
+}
+
+.peli5{
+    background-color: yellow;
+    grid-column: 5/6;
+}
+
+.peli6 {
+    background-color: yellow;
+    grid-column: 1/2;
+}
+
+.peli7 {
+    background-color: greenyellow;
+    grid-column: 2/3;
+}
+
+.peli8 {
+    background-color: yellow;
+    grid-column: 3/4;
+}
+
+.peli9 {
+    background-color: greenyellow;
+    grid-column: 4/5;
+}
+
+.peli10 {
+    background-color: yellow;
+    grid-column: 5/6;
+}
+
+/* Footer */
 
 .footer{
-    background-color: green;
+    background-color: beige;
     grid-column: 1/6;
 }
