@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+
+.container{
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr 1fr;
+}
+
+.header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    grid-column: 1/6;
+}
+
+.main{
+    background-color: yellow;
+    grid-column: 1/6;
+    grid-row: 2/4;
+}
+
+.footer{
+    background-color: green;
+    grid-column: 1/6;
+}
