@@ -59,6 +59,19 @@ body{
     grid-column: 4/6;
 }
 
+.navbar-right ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.navbar-right ul li{
+    margin-left: 5%;
+    list-style: none;
+}
+
 /* Main */
 
 .title{
