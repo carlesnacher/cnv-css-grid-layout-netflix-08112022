@@ -218,6 +218,5 @@ body{
 /* Footer */
 
 .footer{
-    background-color: beige;
     grid-column: 1/6;
 }
