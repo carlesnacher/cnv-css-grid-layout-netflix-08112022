@@ -40,13 +40,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -25%;
-    margin-top: 5%;
+    margin-left: -40%;
 }
 
 .navbar-left ul li{
     list-style: none;
     margin-left: 5%;
+    margin-top: 1%;
 }
 
 .navbar-left ul li a{
@@ -55,7 +55,6 @@ body{
 }
 
 .navbar-right{
-    background-color: antiquewhite;
     grid-column: 4/6;
 }
 
@@ -64,12 +63,27 @@ body{
     justify-content: end;
     align-items: center;
     margin-right: 10%;
-    margin-top: 5%;
 }
 
 .navbar-right ul li{
     margin-left: 5%;
     list-style: none;
+}
+
+.avatar{
+    width: 25px;
+}
+
+.notificacion{
+    width: 25px;
+}
+
+.regalo{
+    width: 25px;
+}
+
+.search{
+    width: 35px;
 }
 
 /* Main */
