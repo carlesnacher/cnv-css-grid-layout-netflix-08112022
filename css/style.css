@@ -89,9 +89,10 @@ body{
 /* Main */
 
 .title{
-    background-color: green;
     grid-column: 1/6;
-
+    font-size: 1.25em;
+    color: white;
+    padding: 20px 25px;
 }
 
 .peli1{
