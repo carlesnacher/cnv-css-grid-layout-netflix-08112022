@@ -38,15 +38,14 @@ body{
 
 .navbar-left ul{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-left: -40%;
 }
 
 .navbar-left ul li{
     list-style: none;
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 .navbar-left ul li a{
@@ -67,6 +66,7 @@ body{
 
 .navbar-right ul li{
     margin-left: 5%;
+    margin-top: 1%;
     list-style: none;
 }
 
