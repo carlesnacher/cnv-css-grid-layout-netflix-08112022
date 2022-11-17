@@ -28,7 +28,8 @@ body{
 }
 
 .logo img{
-    width: 6em;
+    width: 12em;
+    height: 8em;
 }
 
 .navbar-left{
